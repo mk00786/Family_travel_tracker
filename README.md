@@ -69,14 +69,21 @@ Make sure you have installed:
    cd Family_travel_tracker
 
 2. **Install Dependencies**
+   
     npm install
 
 3.  **Configure environment**
+   
     Create a .env file at the project root:
+    
     PG_USER=your_pg_user
+    
     PG_PASSWORD=your_pg_password
+    
     PG_HOST=localhost
+    
     PG_PORT=5432
+    
     PG_DATABASE=family_travel_db
 
 4.  **Initialize the database**
@@ -84,26 +91,38 @@ Make sure you have installed:
 Run psql or PgAdmin, then:
 
 CREATE TABLE visits (
+
   id SERIAL PRIMARY KEY,
+  
   country VARCHAR(255) NOT NULL,
+  
   visited_at TIMESTAMP DEFAULT NOW()
+  
 );
 
 5.  **Start the application**
+
 npm start
 
 6.  **Access in browser**
+
 Visit http://localhost:3000 to add and view family travel logs
 
 
 ## Usage Tips
 
 •	Add a country via the main form
+
 •	View the updated country log list right away
+
 •	UI should reflect visits in chronological order
+
 ## Optional Enhancements
 
 •	Add user authentication for personalized travel logs
+
 •	Create visual maps or charts to represent visited countries
+
 •	Enable edit/delete for added entries
+
 •	Deploy on platforms like Render or Heroku
