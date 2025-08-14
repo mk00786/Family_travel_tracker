@@ -25,6 +25,12 @@ A **PostgreSQL-powered** mini-app built with **Node.js**, **Express**, and **EJS
 
 ---
 
+##   Screenshots
+
+Travel Tracking Image for a particular user-
+<img width="1882" height="923" alt="image" src="https://github.com/user-attachments/assets/e2948fb7-a3ef-4a6c-8cd9-2271bf4b3d9d" />
+
+---
 ##  Project Structure
 
 family_travel_tracker/
